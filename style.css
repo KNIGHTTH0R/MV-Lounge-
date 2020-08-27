@@ -260,4 +260,185 @@ a{
     text-transform: uppercase;
 }
 
+/*--------modal----------*/
 
+.close-btn
+ {
+  background-color: var(--color-primary-light);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+
+
+
+.modal-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+}
+
+.modal-container.show-modal {
+  display: block;
+}
+
+.modal {
+  background-color: var(--color-light);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: 60rem;
+  height: 38rem;
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+  z-index: 100;
+  
+}
+
+.modal-header {
+  background-color:var(--color-accent);
+  color: #fff;
+  padding: 15px;
+}
+
+.modal-header h3 {
+  margin: 0;
+  border-bottom: 1px solid var(--color-accent);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.modal-content {
+  padding: 20px;
+  
+}
+
+.modal-content p {
+    font-size: 1.6rem;
+    color:var(--color-primary-dark);
+}
+
+.modal-content1{
+    display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.modal-content1 label {
+    color:var(--color-primary-dark);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+.modal-form div {
+  margin: 15px 0;
+}
+
+
+
+.modal-form .form-input {
+  padding: 8px;
+  width: 100%;
+}
+
+.close-btn {
+  background-color: var(--color-accent);
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.submit-btn{
+    border:none;
+    padding:1.2rem 3.5rem;
+    background-color: var(--color-accent);
+    color:#fff;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+[type="date"] {
+    background:#f2f4f3 url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+  
+label {
+    display: block;
+    font-family: 'Open Sans';
+    font-size: 1.4rem;
+    font-weight: bold;
+    color:var(--color-primary-dark);
+}
+
+input {
+    border: 1px solid var(--color-accent);
+    border-radius: 5px;
+    background-color: var(--color-light);
+    padding: 8px 7px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    width: 150px;
+    font-family: 'Open Sans';
+    color:var(--color-primary-dark);
+    font-size: 1.5rem;
+}
+
+.custom-select select {
+    border: 1px solid var(--color-accent);
+    border-radius: 5px;
+    background-color: var(--color-light);
+    padding: 7px 7px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    width: 150px; 
+    font-family: 'Open Sans';
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    color:var(--color-primary-dark);
+    font-size: 1.5rem;
+    position: relative;
+
+    
+}
+
+
+.custom-select i {
+    margin-left: -3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    position: absolute;
+    z-index: 1;
+    color:var(--color-primary-dark);
+}
