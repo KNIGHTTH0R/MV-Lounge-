@@ -1,2 +1,2 @@
 # MV-Lounge-
-webiste for a restaurant
+webiste for a coffee & dessert bar
