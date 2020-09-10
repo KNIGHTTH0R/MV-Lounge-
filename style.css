@@ -1120,3 +1120,134 @@ input {
     color:var(--color-accent);
 }
 
+
+
+/*------------------------BLOG-------------*/
+
+
+.blog-wrapper {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+    background-color: var(--color-light);
+    
+}
+
+
+.blog-title{
+    padding: 3rem;
+    padding-bottom: 0rem;
+    text-align: right;
+}
+
+.blog-title span {
+    font-family: 'Great Vibes';
+    font-size: 2.5rem;
+    color:var(--color-accent);
+}
+.blog {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+
+
+.article {
+    width: 27rem;
+    height: 51rem;
+    padding:2rem;
+    
+}
+.article img {
+    width: 23rem;
+    height: 25rem;
+    border-radius: 10px;
+    padding-top: 1rem;
+}
+
+.article span {
+    color:var(--color-primary-light);
+}
+.blog-info h2 {
+    color:var(--color-primary-dark);
+}
+
+.blog-info p {
+    font-size: 1.4rem;
+}
+
+.blog-btn {
+    text-align: center;
+}
+
+/*-------------------------BANNER---------------*/
+
+.banner {
+    padding:4rem 5rem;
+    
+    display: flex;
+}
+
+.banner img  {
+    margin-top: -6rem;
+}
+
+.banner-cta{
+    margin-left: 12rem;
+}
+
+
+.newsletter-cta{
+    margin-left: 12rem;
+    margin-top: 3rem; 
+}
+
+.form-control {
+    width:25rem;
+    height: 3.5rem;
+    text-indent: 2rem;
+}
+.btn-info {
+    height: 3.5rem;
+    width: 10rem;
+    padding:1rem 3rem;
+    border:none;
+    background-color: var(--color-accent);
+    text-transform: uppercase;
+    border-radius: 5px;
+    
+    
+}
+
+.btn-info a{
+    text-decoration: none;
+    color:white;
+    margin-left: -1rem;
+}
+.btn-info:hover {
+    background-color:var(--color-accent-dark);
+    cursor: pointer;
+}
+  
+.checkbox1 {
+    cursor: pointer;
+    
+}
+
+.u {
+    cursor: pointer;
+}
+
+.checkbox p {
+    font-size: 1.3rem;
+    margin-left: -7rem;
+    
+}
+
+.checkbox span {
+    margin-left: -4rem;
+}
+
+.input-group input {
+    border:none;
+}
