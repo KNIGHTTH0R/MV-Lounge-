@@ -1251,3 +1251,316 @@ input {
 .input-group input {
     border:none;
 }
+
+
+/*-----------------------CONTACT FORM-------------*/
+
+.contact-form1 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: var(--color-light);
+    padding:1rem 5rem;
+    padding-bottom: 10rem;
+}
+
+.contact-title p {
+    font-size: 2.5rem;
+    font-family: 'Great Vibes';
+    color:var(--color-accent);
+}
+
+
+.contact-container {
+    width: 40rem;
+    height: 40rem;
+    padding: 2rem;
+    float:right;
+    margin-top: -7rem;
+   
+}
+
+.contact-container p {
+    font-size: 2rem;
+    color:var(--color-accent);
+}
+
+.name, .email, .phone, .message {
+    width: 30rem;
+    padding: 1.2rem;
+    border: none;
+    margin-top: 0.6rem;
+    margin-bottom: 0.5rem;
+    resize: vertical;
+}
+
+.phone {
+    margin-left: 0;
+}
+
+.message {
+    height: 10rem;
+    margin-left: 0;
+}
+
+
+.column2 {
+    float: left;
+    width: 70%;
+    
+    
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.contact-form{
+    margin-top: 0rem;
+}
+
+.contact-form label {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: var(--color-primary-dark);
+    margin-top: 1.5rem;
+}
+
+
+.contact-form input {
+    background-color: rgb(226, 223, 223);
+  
+}
+.contact-info {
+    display:flex;
+    justify-content: space-around;
+}
+
+.contact-info1 {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.info-c {
+    display: flex;
+}
+
+.description {
+    padding-left: 2rem;
+}
+
+.description p {
+    text-transform: uppercase;
+    color:var(--color-primary-dark);
+}
+
+.description h3 {
+font-weight: normal;
+font-size: 1.4rem;
+padding-top: 1rem;
+color:var(--color-primary-light);
+}
+
+.description span {
+    color:var(--color-primary-light);
+    padding-top: 2rem;
+}
+
+
+
+
+/*------------------------FOOTER---------------*/
+
+
+  
+.footer{
+    position: absolute;
+    color:white;
+    
+}
+
+
+.footer-wrap {
+    background-color:#fff;
+}
+
+  
+
+
+
+.page-footer{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+.footer-col {
+    width: 25%;
+    height: 18.5rem;
+    margin-right: 5rem;
+    
+}
+.footer-col p {
+    font-size: 1.8rem;
+}
+.footer-col span {
+    display: flex;
+}
+
+
+
+.footer-col ul li {
+    font-size: 1.5rem;
+    list-style-type: none;
+    color:var(--color-primary-light);
+    
+}
+.page-footer h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-right: 3rem;
+    color:var(--color-primary-dark);
+    
+}
+
+.page-footer h3::after {
+    content: '.';
+    font-size: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--color-accent);
+    display: block;
+    margin: 1rem 0 2rem 0;
+}
+
+.page-footer li {
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+.page-footer li:hover {
+    color: var(--color-accent);
+    cursor: pointer;
+}
+
+.footer-col p {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.store img{
+    width: 12rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+
+}
+
+.awards {
+    display: flex;
+    margin-left: 2rem;
+    
+}
+.awards img {
+    width: 8rem;
+    height: 8rem;
+    margin-right: 1rem;
+    
+}
+
+.awards p {
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+
+
+
+.social1 {
+    display: flex;
+    margin-top: 2rem;
+   
+    
+
+}
+
+.social1 li {
+    list-style-type: none;
+    padding: 1rem;
+
+}
+
+.copy {
+    
+    font-size: 1.3rem;
+}
+
+.ending {
+    display: flex;
+    margin-top: 20rem;
+    padding-bottom: 2rem;
+    justify-content: space-between;
+    
+}
+
+.links1 {
+    display: flex;
+    color:#3d5a63;
+    
+    
+}
+
+.links1 p {
+    padding-right: 2rem;
+    font-size: 1.3rem;
+}
+.ending p a {
+    text-decoration: none;
+    color:var(--color-primary-dark);
+     
+}
+
+.ending p a:hover {
+    color: var(--color-accent);
+}
+  
+.social1 a i{
+    font-size: 2rem;
+    padding-right: 4rem;
+    color: var(--color-accent);
+}
+
+
+  
+.logo-bottom img {
+    width: 23rem;
+    height: 5rem;
+}
+
+
+/* back to top button --------------*/
+
+
+#myBtn {
+    display: none;
+    position: fixed; 
+    bottom: 14rem; 
+    right: 5rem; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: var(--color-accent);
+    color: white; 
+    cursor: pointer; 
+    padding: 1.5rem; 
+    border-radius: 10px; 
+    font-size: 1.8rem; 
+    text-transform: uppercase;
+  }
+  
+  #myBtn:hover {
+    background-color: var(--color-accent-dark);
+  }
